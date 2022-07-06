@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ngxfs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="namenode">
+				<Option output="F:/workspace/C++/spkdfs-dev/cmake-build-debug/namenode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/workspace/C++/spkdfs-dev/include"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/paxos"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/core"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/client"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/cfs"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/common"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/faio"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/datanode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/default"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/namenode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/election"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 namenode"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="namenode/fast">
+				<Option output="F:/workspace/C++/spkdfs-dev/cmake-build-debug/namenode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/workspace/C++/spkdfs-dev/include"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/paxos"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/core"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/client"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/cfs"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/common"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/faio"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/datanode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/default"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/namenode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/election"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 namenode/fast"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datanode">
+				<Option output="F:/workspace/C++/spkdfs-dev/cmake-build-debug/datanode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/workspace/C++/spkdfs-dev/include"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/paxos"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/core"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/client"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/cfs"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/common"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/faio"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/datanode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/default"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/namenode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/election"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 datanode"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datanode/fast">
+				<Option output="F:/workspace/C++/spkdfs-dev/cmake-build-debug/datanode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/workspace/C++/spkdfs-dev/include"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/paxos"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/core"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/client"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/cfs"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/common"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/faio"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/datanode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/default"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/namenode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/election"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 datanode/fast"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="F:/workspace/C++/spkdfs-dev/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/workspace/C++/spkdfs-dev/include"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/paxos"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/core"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/client"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/cfs"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/common"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/faio"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/datanode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/default"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/namenode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/election"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="F:/workspace/C++/spkdfs-dev/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/workspace/C++/spkdfs-dev/include"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/paxos"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/core"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/client"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/cfs"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/common"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/faio"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/datanode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/default"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/namenode"/>
+					<Add directory="F:/workspace/C++/spkdfs-dev/src/election"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="E:/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="F:/workspace/C++/spkdfs-dev/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/workspace/C++/spkdfs-dev/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs_eio.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs_eio.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs_faio.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs_faio.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs_fio.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/cfs/cfs_fio.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/cli_group.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/cli_group.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_conf.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_conf.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_cycle.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_cycle.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_get.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_get.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_main.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_main.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_put.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/client/dfscli_put.h">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/GroupListMess.pb.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_group.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_group.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_node.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_node.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_task.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_task.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_task_codec.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_task_codec.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_utils.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/dfs_utils.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/filetool.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/filetool.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/fs_permission.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/common/fs_permission.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_array.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_array.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_buffer.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_buffer.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_chain.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_chain.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_channel.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_channel.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_commpool.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_commpool.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_commpool_allocator.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conf.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conf.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conf_base.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conf_base.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conn.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conn.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conn_listen.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conn_listen.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conn_pool.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_conn_pool.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_epoll.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_epoll.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_error_log.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_error_log.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_event.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_event.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_event_timer.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_event_timer.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_half_life_mempool.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_half_life_mempool.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_hashtable.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_hashtable.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_ipc.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_ipc.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_list.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_list.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_lock.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_lock.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_math.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_math.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_mblks.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_mblks.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_mem_allocator.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_mem_allocator.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_memory.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_memory.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_memory_pool.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_memory_pool.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_mempool_allocator.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_mempool_allocator.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_notice.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_notice.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_pipe.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_pipe.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_queue.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_queue.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_rbtree.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_rbtree.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_shmem.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_shmem.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_shmem_allocator.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_shmem_allocator.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_slabs.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_slabs.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_string.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_string.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_sys.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_sys.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_sysio.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_sysio.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_time.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/core/dfs_time.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_conf.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_conf.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_conn_event.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_conn_event.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_cycle.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_cycle.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_data_storage.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_data_storage.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_error_log.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_error_log.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_group.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_group.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_ip_scanner.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_ip_scanner.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_main.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_main.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_module.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_module.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_net_response_handler.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_net_response_handler.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_ns_service.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_ns_service.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_paxos.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_paxos.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_paxos_handler.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_paxos_handler.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_process.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_process.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_request.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_request.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_rpc_server.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_rpc_server.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_signal.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_signal.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_task_handler.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_task_handler.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_task_queue.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_task_queue.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_thread.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_thread.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_time.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_time.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_worker_process.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/datanode/dn_worker_process.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/election/GrouplistSM.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/election/GrouplistSM.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/election/PhxElection.cpp">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/election/PhxElection.h">
+			<Option target="datanode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_atomic_lock.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_atomic_lock.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_data_manager.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_data_manager.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_error.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_error.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_handler_manager.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_handler_manager.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_manager.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_manager.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_notifier_manager.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_notifier_manager.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_thread.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_thread.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_worker_manager.cpp">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/faio/faio_worker_manager.h">
+			<Option target="namenode"/>
+			<Option target="datanode"/>
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_blk_index.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_blk_index.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_conf.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_conf.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_conn_event.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_conn_event.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_cycle.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_cycle.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_dn_index.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_dn_index.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_error_log.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_error_log.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_file_index.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_file_index.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_group.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_group.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_main.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_main.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_module.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_module.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_net_response_handler.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_net_response_handler.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_paxos.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_paxos.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_process.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_process.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_request.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_request.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_rpc_server.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_rpc_server.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_signal.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_signal.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_task_handler.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_task_handler.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_task_queue.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_task_queue.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_thread.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_thread.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_time.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_time.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_worker_process.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/namenode/nn_worker_process.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/paxos/EditlogSM.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/paxos/EditlogSM.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/paxos/FSEditlog.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/paxos/FSEditlog.h">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/src/paxos/phxeditlog.pb.cpp">
+			<Option target="namenode"/>
+		</Unit>
+		<Unit filename="F:/workspace/C++/spkdfs-dev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

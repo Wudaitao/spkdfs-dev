@@ -1,0 +1,1 @@
+ -LF:/workspace/C++/spkdfs-dev/lib  -LF:/workspace/C++/spkdfs-dev/libleveldb-NOTFOUND  -LF:/workspace/C++/spkdfs-dev/libphxpaxos-NOTFOUND  -LF:/workspace/C++/spkdfs-dev/libprotobuf-NOTFOUND -lm -Wl,-Bstatic -lphxpaxos -lleveldb -lprotobuf -Wl,-Bdynamic -latomic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

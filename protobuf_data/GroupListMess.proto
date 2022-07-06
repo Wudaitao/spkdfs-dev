@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+package phxgrouplist;
+
+message NodeInfo{
+    uint32 nodePort=1;
+    string nodeIp=2;
+}
+message GroupInfo{
+    NodeInfo leader=1;
+    repeated NodeInfo Nodelist=2;
+}
+message GroupList{
+    enum st_type{
+        GROUP_BUILD = 0;
+    }
+    uint32  epoch=2;
+    NodeInfo Master=3;
+    st_type groupStatus=4;
+    repeated GroupInfo groups=5;
+}
+message GroupListInit{
+    uint32   epoch=1;
+    NodeInfo Master=2;
+    GroupList init_grouplist=3;
+}
+message GrouplistAdd{
+    uint32   epoch=1;
+    NodeInfo Master=2;
+    NodeInfo group_leader_addto=3;
+    NodeInfo new_node=4;
+}
+message GroupListRemove{
+    uint32   epoch=1;
+    NodeInfo Master=2;
+    NodeInfo group_oldleader_removefrom=3;
+    NodeInfo group_newleader_removefrom=4;
+    NodeInfo remove_node=5;
+}
+message GrouplistMess{
+    enum op_types{
+        GL_INIT=0;
+        GL_ADD=1;
+        GL_REMOVE=2;
+        GL_SHUTDOWN=3;
+        GL_KILLNODE=4;
+    }
+    op_types op_type=1;
+    GroupListInit gl_init=2;
+    GrouplistAdd gl_add=3;
+    GroupListRemove gl_remove=4;
+    uint32 epoch=5;
+}
+message LeadersChangeMess{
+    enum op_types{
+        LC_INIT=0;
+        LC_ADD=1;
+        LC_REMOVE=2;
+        LC_REPLACE=3;
+    }
+    op_types op_type =1;
+    uint32   epoch=2;
+    repeated NodeInfo leaders=3;
+}
+message NodeStorageMess{
+    uint64 capacity=1;
+    uint64 dfs_used=2;
+    uint64 remaining=3;
+}

@@ -1,0 +1,9 @@
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/namenode.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/datanode.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/list_install_components.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/client.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/install.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/install/local.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/workspace/C++/spkdfs-dev/cmake-build-debug/CMakeFiles/install/strip.dir

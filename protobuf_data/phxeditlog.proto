@@ -1,0 +1,76 @@
+syntax = "proto3";
+
+package phxeditlog;
+
+message LogMkdir
+{
+    string key = 1; //每个元素中的 “=1”，"=2" 表示该字段在二进制编码中使用的唯一 “标识”
+    uint32 permission = 2;
+    string owner = 3;
+    string group = 4;
+    uint64 modification_time = 5; 
+};
+
+message LogRmr
+{
+    string key = 1;
+    uint64 modification_time = 2; 
+};
+
+message LogCreate
+{
+    string key = 1;
+    uint32 permission = 2;
+    string owner = 3;
+    string group = 4;
+    uint64 modification_time = 5;
+    uint64 blk_id = 6;
+    uint64 blk_sz = 7;
+    uint32 blk_rep = 8;
+    uint32 blk_seq = 9;
+    uint32 total_blk = 10;
+    /*uint32 t_blk_sz = 11;
+    uint32 t_sub_sz = 12;*/
+};
+
+message LogGetAdditionalBlk
+{
+    string key = 1;
+    uint64 blk_id = 2;
+    uint64 blk_sz = 3;
+    uint32 blk_rep = 4;
+};
+
+message LogClose
+{
+    string key = 1;
+    uint64 modification_time = 2; 
+    uint64 len = 3;
+    uint32 blk_rep = 4;
+};
+
+message LogUpdateFinish
+{
+    string key = 1;
+    uint64 blk_id = 2;
+    uint64 blk_size = 3;
+    string dn_ip = 4;
+};
+
+message LogRm
+{
+    string key = 1;
+    uint64 modification_time = 2; 
+};
+
+message LogOperator
+{
+    uint32 optype = 1;
+    LogMkdir mkr = 2;
+    LogRmr rmr = 3;
+    LogCreate cre = 4;
+    LogGetAdditionalBlk gab = 5;
+    LogClose cle = 6;
+    LogRm rm = 7;
+    LogUpdateFinish luf = 8;
+};
